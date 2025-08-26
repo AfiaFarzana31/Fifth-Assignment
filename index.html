@@ -4,11 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emergency Service Directory</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
-      <section class="navbar"></section>
-      <section class="hero_section"></section>
+      <section
+        class="navbar flex justify-between max-w-[1440px] mx-auto my-[50px]"
+      >
+        <div class="logo flex h-[52px] w-[195px] gap-2">
+          <img src="./assets/logo.png" alt="" />
+          <p class="font-bold text-[#006747]">Emergency <br />Service</p>
+        </div>
+        <div
+          class="h-[52px] w-[397px] flex justify-between text-center font-bold"
+        >
+          <div
+            class="h-[52px] w-[127px] flex items-center text-center bg-[#41FF6B] bg-opacity-10 rounded-[50px] pl-10 gap-2"
+          >
+            <p>0</p>
+            <img src="./assets/heart.png" class="h-[30px] w-[30px]" alt="" />
+          </div>
+          <div
+            class="h-[52px] w-[106px] flex items-center text-center bg-[#41FF6B] bg-opacity-10 rounded-[50px] p-5 gap-2"
+          >
+            <p>100</p>
+            <img src="./assets/coin.png" class="h-[30px] w-[30px]" alt="" />
+          </div>
+          <div
+            class="h-[52px] w-[127px] flex items-center text-center bg-[#00A63E] rounded-[50px] pl-10 gap-2"
+          >
+            <p class="text-white">0 Copy</p>
+          </div>
+        </div>
+      </section>
+      <section class="hero_section">
+        <div
+          class="h-[239px] max-w-[1800px] items-center text-center mx-auto bg-gradient-to-l from-[#013223] to-[#006747] py-12"
+        >
+          <div class="mx-auto">
+            <img
+              src="./assets/logo-dark.png"
+              class="mx-auto h-[92px] w-[92px] mb-3"
+              alt=""
+            />
+          </div>
+          <div class="text-white">
+            <h1 class="text-3xl font-bold mb-2">Emergency Service Directory</h1>
+            <p class="text-l font-semibold">
+              Government Emergency Services at Your Fingertip – A Project by
+              Government of the People’s Republic of Bangladesh
+            </p>
+          </div>
+        </div>
+      </section>
     </header>
     <main>
       <section class="main_section"></section>
