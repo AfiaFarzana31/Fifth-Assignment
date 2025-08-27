@@ -66,17 +66,16 @@
       </section>
     </header>
     <!-- Main Section -->
-    <main class="flex flex-col md:flex-row py-12 mx-auto">
+    <main class="bg-[#41FF6B] bg-opacity-10 flex flex-col md:flex-row py-12 mx-auto">
       <!-- Cards Section -->
-      <section class=" border-2 border-red-500 w-[1200px] h-[900px] gap-2 px-7 grid md:grid-cols-3 grid-rows-3 sm:grid-cols-2">
-        <!-- Emergency Card Template -->
+      <section class="w-[1200px] h-[900px] gap-2 px-7 grid md:grid-cols-3 grid-rows-3 sm:grid-cols-2">
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded shadow"
+          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
           data-name="Police"
           data-number="999"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-[10px] p-4 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
             
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
             <i class="fa-regular fa-heart"></i>
@@ -85,301 +84,299 @@
           <p class="text-xl font-bold">National Emergency Number</p>
           <p class="text-sm text-gray-600">National Emergency</p>
           <p class="font-bold text-lg">999</p>
-          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded"
+          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
               >All</span
             >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
-              class="border-2 w-[125px] h-[40px] px-11 py-1 rounded text-black flex items-center gap-1"
+              class="border-2 w-[125px] h-[40px] px-8 py-1 rounded text-black flex items-center gap-1"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
             <button
               onclick="callService(this)"
-              class="bg-green-600 w-[125px] h-[40px] px-11 py-1 rounded text-white flex items-center gap-1"
+              class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
               <i class="fa-solid fa-phone"></i>  Call
             </button>
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded shadow"
+          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
           data-name="Police"
           data-number="999"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-[10px] p-4 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
+            <span class="h-[55px] w-[55px] bg-[#DFEFFF] rounded-[10px] p-3 "><img src="./assets/police.png" alt="Police" class="h-[32px] w-[32px]"></span>
             
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
             <i class="fa-regular fa-heart"></i>
           </button>
           </div>
-          <p class="text-xl font-bold">National Emergency Number</p>
-          <p class="text-sm text-gray-600">National Emergency</p>
+          <p class="text-xl font-bold">Police Helpline Number</p>
+          <p class="text-sm text-gray-600">Police</p>
           <p class="font-bold text-lg">999</p>
-          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded"
-              >All</span
+          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
+              >Police</span
             >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
-              class="border-2 w-[125px] h-[40px] px-11 py-1 rounded text-black flex items-center gap-1"
+              class="border-2 w-[125px] h-[40px] px-8 py-1 rounded text-black flex items-center gap-1"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
             <button
               onclick="callService(this)"
-              class="bg-green-600 w-[125px] h-[40px] px-11 py-1 rounded text-white flex items-center gap-1"
+              class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
               <i class="fa-solid fa-phone"></i>  Call
             </button>
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded shadow"
+          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
           data-name="Police"
           data-number="999"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-[10px] p-4 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/fire-service.png" alt="Fire-service" class="h-[32px] w-[32px]"></span>
             
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
             <i class="fa-regular fa-heart"></i>
           </button>
           </div>
-          <p class="text-xl font-bold">National Emergency Number</p>
-          <p class="text-sm text-gray-600">National Emergency</p>
+          <p class="text-xl font-bold">Fire Service Number</p>
+          <p class="text-sm text-gray-600">Fire</p>
           <p class="font-bold text-lg">999</p>
-          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded"
-              >All</span
+          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
+              >Fire</span
             >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
-              class="border-2 w-[125px] h-[40px] px-11 py-1 rounded text-black flex items-center gap-1"
+              class="border-2 w-[125px] h-[40px] px-8 py-1 rounded text-black flex items-center gap-1"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
             <button
               onclick="callService(this)"
-              class="bg-green-600 w-[125px] h-[40px] px-11 py-1 rounded text-white flex items-center gap-1"
+              class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
               <i class="fa-solid fa-phone"></i>  Call
             </button>
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded shadow"
+          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
           data-name="Police"
           data-number="999"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-[10px] p-4 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/ambulance.png" alt="Ambulance" class="h-[32px] w-[32px]"></span>
             
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
             <i class="fa-regular fa-heart"></i>
           </button>
           </div>
-          <p class="text-xl font-bold">National Emergency Number</p>
-          <p class="text-sm text-gray-600">National Emergency</p>
-          <p class="font-bold text-lg">999</p>
-          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded"
-              >All</span
+          <p class="text-xl font-bold">Ambulance Service</p>
+          <p class="text-sm text-gray-600">Ambulance</p>
+          <p class="font-bold text-lg">1994-999999</p>
+          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
+              >Health</span
             >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
-              class="border-2 w-[125px] h-[40px] px-11 py-1 rounded text-black flex items-center gap-1"
+              class="border-2 w-[125px] h-[40px] px-8 py-1 rounded text-black flex items-center gap-1"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
             <button
               onclick="callService(this)"
-              class="bg-green-600 w-[125px] h-[40px] px-11 py-1 rounded text-white flex items-center gap-1"
+              class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
               <i class="fa-solid fa-phone"></i>  Call
             </button>
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded shadow"
+          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
           data-name="Police"
           data-number="999"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-[10px] p-4 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
             
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
             <i class="fa-regular fa-heart"></i>
           </button>
           </div>
-          <p class="text-xl font-bold">National Emergency Number</p>
-          <p class="text-sm text-gray-600">National Emergency</p>
-          <p class="font-bold text-lg">999</p>
-          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded"
-              >All</span
+          <p class="text-xl font-bold">Women & Child Helpline</p>
+          <p class="text-sm text-gray-600">Women & Child Helpline</p>
+          <p class="font-bold text-lg">109</p>
+          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
+              >Help</span
             >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
-              class="border-2 w-[125px] h-[40px] px-11 py-1 rounded text-black flex items-center gap-1"
+              class="border-2 w-[125px] h-[40px] px-8 py-1 rounded text-black flex items-center gap-1"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
             <button
               onclick="callService(this)"
-              class="bg-green-600 w-[125px] h-[40px] px-11 py-1 rounded text-white flex items-center gap-1"
+              class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
               <i class="fa-solid fa-phone"></i>  Call
             </button>
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded shadow"
+          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
           data-name="Police"
           data-number="999"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-[10px] p-4 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
             
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
             <i class="fa-regular fa-heart"></i>
           </button>
           </div>
-          <p class="text-xl font-bold">National Emergency Number</p>
-          <p class="text-sm text-gray-600">National Emergency</p>
-          <p class="font-bold text-lg">999</p>
-          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded"
-              >All</span
+          <p class="text-xl font-bold">Anti-Corruption Helpline</p>
+          <p class="text-sm text-gray-600">Anti-Corruption</p>
+          <p class="font-bold text-lg">106</p>
+          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
+              >Govt.</span
             >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
-              class="border-2 w-[125px] h-[40px] px-11 py-1 rounded text-black flex items-center gap-1"
+              class="border-2 w-[125px] h-[40px] px-8 py-1 rounded text-black flex items-center gap-1"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
             <button
               onclick="callService(this)"
-              class="bg-green-600 w-[125px] h-[40px] px-11 py-1 rounded text-white flex items-center gap-1"
+              class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
               <i class="fa-solid fa-phone"></i>  Call
             </button>
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded shadow"
+          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
           data-name="Police"
           data-number="999"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-[10px] p-4 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
             
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
             <i class="fa-regular fa-heart"></i>
           </button>
           </div>
-          <p class="text-xl font-bold">National Emergency Number</p>
-          <p class="text-sm text-gray-600">National Emergency</p>
-          <p class="font-bold text-lg">999</p>
-          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded"
-              >All</span
+          <p class="text-xl font-bold">Electricity Helpline</p>
+          <p class="text-sm text-gray-600">Electricity Outage</p>
+          <p class="font-bold text-lg">16216</p>
+          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
+              >Electricity</span
             >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
-              class="border-2 w-[125px] h-[40px] px-11 py-1 rounded text-black flex items-center gap-1"
+              class="border-2 w-[125px] h-[40px] px-8 py-1 rounded text-black flex items-center gap-1"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
             <button
               onclick="callService(this)"
-              class="bg-green-600 w-[125px] h-[40px] px-11 py-1 rounded text-white flex items-center gap-1"
+              class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
               <i class="fa-solid fa-phone"></i>  Call
             </button>
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded shadow"
+          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
           data-name="Police"
           data-number="999"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-[10px] p-4 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/brac.png" alt="Brac" class="h-[32px] w-[32px]"></span>
             
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
             <i class="fa-regular fa-heart"></i>
           </button>
           </div>
-          <p class="text-xl font-bold">National Emergency Number</p>
-          <p class="text-sm text-gray-600">National Emergency</p>
-          <p class="font-bold text-lg">999</p>
-          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded"
-              >All</span
+          <p class="text-xl font-bold">Brac Helpline</p>
+          <p class="text-sm text-gray-600">Brac</p>
+          <p class="font-bold text-lg">16445</p>
+          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
+              >NGO</span
             >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
-              class="border-2 w-[125px] h-[40px] px-11 py-1 rounded text-black flex items-center gap-1"
+              class="border-2 w-[125px] h-[40px] px-8 py-1 rounded text-black flex items-center gap-1"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
             <button
               onclick="callService(this)"
-              class="bg-green-600 w-[125px] h-[40px] px-11 py-1 rounded text-white flex items-center gap-1"
+              class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
               <i class="fa-solid fa-phone"></i>  Call
             </button>
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded shadow"
+          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
           data-name="Police"
           data-number="999"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[60px] w-[60px] bg-[#FFE3E2] rounded-[10px] p-4 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/Bangladesh-Railway.png" alt="Bangladesh-Railway" class="h-[32px] w-[32px]"></span>
             
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
             <i class="fa-regular fa-heart"></i>
           </button>
           </div>
-          <p class="text-xl font-bold">National Emergency Number</p>
-          <p class="text-sm text-gray-600">National Emergency</p>
-          <p class="font-bold text-lg">999</p>
-          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded"
-              >All</span
+          <p class="text-xl font-bold">Bangladesh Railway Helpline </p>
+          <p class="text-sm text-gray-600">Bangladesh Railway</p>
+          <p class="font-bold text-lg">163</p>
+          <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
+              >Travel</span
             >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
-              class="border-2 w-[125px] h-[40px] px-11 py-1 rounded text-black flex items-center gap-1"
+              class="border-2 w-[125px] h-[40px] px-8 py-1 rounded text-black flex items-center gap-1"
             >
               <i class="fa-regular fa-copy"></i> Copy
             </button>
             <button
               onclick="callService(this)"
-              class="bg-green-600 w-[125px] h-[40px] px-11 py-1 rounded text-white flex items-center gap-1"
+              class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
               <i class="fa-solid fa-phone"></i>  Call
             </button>
           </div>
         </div>
-        
-
       </section>
 
-      <!-- History Section -->
-      <section class="bg-white w-[400px] h-[865px] p-4 rounded shadow">
+      <!--Call History Section -->
+      <section class="bg-white w-[400px] h-[865px] p-4 mr-6 rounded-[10px] shadow-black">
         <div class="flex justify-between items-center mb-4">
           <h3 class="text-xl font-bold flex items-center gap-2">
             <i class="fa-regular fa-clock"></i> Call History
           </h3>
           <button
             onclick="clearHistory()"
-            class="bg-green-500 text-white px-3 py-1 rounded"
+            class="bg-green-500 text-white px-3 py-1 rounded-[10px]"
           >
             Clear
           </button>
@@ -388,7 +385,7 @@
       </section>
     </main>
 
-    <!-- JavaScript Logic -->
+    <!-- JavaScript Function-->
     <script>
       let heartCount = 0;
       let coinCount = 100;
