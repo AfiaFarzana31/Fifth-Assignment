@@ -18,16 +18,18 @@
   <body>
     <header>
       <nav
-        class="navbar max-w-[1440px] mx-auto my-[30px] flex md:flex-row sm:flex-col justify-between"
+        class="navbar max-w-[1440px] mx-auto my-[30px] flex justify-between flex-col md:flex-row gap-3"
       >
-        <div class="logo flex h-[52px] w-[195px] gap-2">
-          <img src="./assets/logo.png" alt="" />
+        <div
+          class="logo flex h-[52px] w-full justify-center md:w-[195px] gap-2"
+        >
+          <img src="./assets/logo.png" class="h-[52px] w-auto" alt="Logo" />
           <p class="font-bold text-lg text-[#006747]">
             Emergency <br />Service
           </p>
         </div>
         <div
-          class="h-[52px] w-[397px] flex justify-between text-center font-bold"
+          class="h-[52px] w-[397px] flex justify-between text-center font-bold ml-3"
         >
           <div
             class="h-[52px] w-[127px] flex items-center text-center bg-[#41FF6B] bg-opacity-10 rounded-[50px] pl-10 gap-2"
@@ -60,8 +62,10 @@
             />
           </div>
           <div class="text-white">
-            <h1 class="text-3xl font-bold mb-2">Emergency Service Directory</h1>
-            <p class="text-l font-semibold">
+            <h1 class="text-xl sm:text-2xl md:text-3xl font-bold mb-2">
+              Emergency Service Directory
+            </h1>
+            <p class="text-sm sm:text-base font-semibold">
               Government Emergency Services at Your Fingertip – A Project by
               Government of the People’s Republic of Bangladesh
             </p>
@@ -71,14 +75,14 @@
     </header>
     <!-- Main Section -->
     <main
-      class="bg-[#41FF6B] bg-opacity-10 flex flex-col md:flex-row py-12 mx-auto"
+      class="bg-[#41FF6B] bg-opacity-10 flex flex-col md:flex-row gap-6 py-6 mx-auto"
     >
       <!-- Cards Section -->
       <section
-        class="w-[1200px] h-[900px] gap-2 px-7 grid md:grid-cols-3 grid-rows-3 sm:grid-cols-1"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 py-6 w-full max-w-[1200px] mx-auto"
       >
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
+          class="bg-white w-full max-w-[320px] p-4 rounded-[10px] shadow mx-auto"
           data-name="National Emergency Number"
           data-number="999"
         >
@@ -116,7 +120,7 @@
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
+          class="bg-white w-full max-w-[320px] p-4 rounded-[10px] shadow mx-auto"
           data-name="Police Helpline Number"
           data-number="999"
         >
@@ -154,7 +158,7 @@
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
+          class="bg-white w-full max-w-[320px] p-4 rounded-[10px] shadow mx-auto"
           data-name="Fire Service Number"
           data-number="999"
         >
@@ -192,7 +196,7 @@
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
+          class="bg-white w-full max-w-[320px] p-4 rounded-[10px] shadow mx-auto"
           data-name="Ambulance Service"
           data-number="1994-999999"
         >
@@ -230,7 +234,7 @@
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
+          class="bg-white w-full max-w-[320px] p-4 rounded-[10px] shadow mx-auto"
           data-name="Women & Child Helpline"
           data-number="109"
         >
@@ -268,7 +272,7 @@
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
+          class="bg-white w-full max-w-[320px] p-4 rounded-[10px] shadow mx-auto"
           data-name="Anti-Corruption Helpline"
           data-number="106"
         >
@@ -306,7 +310,7 @@
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
+          class="bg-white w-full max-w-[320px] p-4 rounded-[10px] shadow mx-auto"
           data-name="Electricity Helpline"
           data-number="16216"
         >
@@ -344,7 +348,7 @@
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
+          class="bg-white w-full max-w-[320px] p-4 rounded-[10px] shadow mx-auto"
           data-name="Brac Helpline"
           data-number="16445"
         >
@@ -382,7 +386,7 @@
           </div>
         </div>
         <div
-          class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
+          class="bg-white w-full max-w-[320px] p-4 rounded-[10px] shadow mx-auto"
           data-name="Bangladesh Railway Helpline"
           data-number="163"
         >
@@ -423,7 +427,7 @@
 
       <!--Call History Section -->
       <section
-        class="bg-white w-full md:w-[400px] h-[865px] p-4 mr-0 md:mr-8 rounded-[10px] shadow-md overflow-hidden"
+        class="bg-white w-full md:w-[400px] h-[800px] p-4 mt-6 md:mr-8 rounded-[10px] shadow-md"
       >
         <div class="flex justify-between items-center mb-4">
           <h3
@@ -433,7 +437,7 @@
           </h3>
           <button
             onclick="clearHistory()"
-            class="bg-green-600 w-[80px] h-[40px] text-white px-3 py-1 rounded-[15px] hover:bg-green-700 transition"
+            class="bg-green-600 w-[80px] h-[40px] text-white px-3 py-1 rounded-[20px] hover:bg-green-700 transition"
           >
             Clear
           </button>
@@ -468,13 +472,15 @@
         const number = card.getAttribute("data-number");
 
         if (coinCount < 20) {
-          alert("Not enough coins to make a call.");
+          alert(
+            "Not enough coins to make a call.You need at least 20 coins to make a call."
+          );
           return;
         }
 
         coinCount -= 20;
         document.getElementById("coinCount").textContent = coinCount;
-        alert(`Calling ${name} at ${number}`);
+        alert(`📞 Calling ${name}  ${number}`);
 
         const now = new Date();
         const time = now.toLocaleTimeString();
@@ -484,12 +490,11 @@
 
         historyItem.innerHTML = `
     <div class="flex justify-between items-center">
-      <span class="font-bold">${name}</span>
-      <span class="text-gray-500 text-xs">${time}</span>
+      <span class="font-bold ">${name}</span>
+      <span class="text-gray-500 text-xs mt-5">${time}</span>
     </div>
     <div class="text-gray-500 font-semibold">${number}</div>
   `;
-
         document.getElementById("historyList").appendChild(historyItem);
       }
       function clearHistory() {
