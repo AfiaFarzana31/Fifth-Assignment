@@ -17,10 +17,14 @@
   </head>
   <body>
     <header>
-      <nav class="navbar max-w-[1440px] mx-auto my-[50px] flex md:flex-row sm:flex-col sm:p-5 justify-between">
+      <nav
+        class="navbar max-w-[1440px] mx-auto my-[30px] flex md:flex-row sm:flex-col justify-between"
+      >
         <div class="logo flex h-[52px] w-[195px] gap-2">
           <img src="./assets/logo.png" alt="" />
-          <p class="font-bold text-[#006747]">Emergency <br />Service</p>
+          <p class="font-bold text-lg text-[#006747]">
+            Emergency <br />Service
+          </p>
         </div>
         <div
           class="h-[52px] w-[397px] flex justify-between text-center font-bold"
@@ -46,7 +50,7 @@
       </nav>
       <section class="hero_section">
         <div
-          class="h-[239px] max-w-[1800px] items-center text-center mx-auto bg-gradient-to-l from-[#013223] to-[#006747] py-12"
+          class="h-[239px] max-w-[1800px] items-center text-center mx-auto bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] py-8"
         >
           <div class="mx-auto">
             <img
@@ -66,27 +70,36 @@
       </section>
     </header>
     <!-- Main Section -->
-    <main class="bg-[#41FF6B] bg-opacity-10 flex flex-col md:flex-row py-12 mx-auto">
+    <main
+      class="bg-[#41FF6B] bg-opacity-10 flex flex-col md:flex-row py-12 mx-auto"
+    >
       <!-- Cards Section -->
-      <section class="w-[1200px] h-[900px] gap-2 px-7 grid md:grid-cols-3 grid-rows-3 sm:grid-cols-1">
+      <section
+        class="w-[1200px] h-[900px] gap-2 px-7 grid md:grid-cols-3 grid-rows-3 sm:grid-cols-1"
+      >
         <div
           class="bg-white w-[320px] h-[260px] p-4 rounded-[10px] shadow"
           data-name="National Emergency Number"
           data-number="999"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
-            
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3"
+              ><img
+                src="./assets/emergency.png"
+                alt="Emergency sign"
+                class="h-[32px] w-[32px]"
+            /></span>
+
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
-            <i class="fa-regular fa-heart"></i>
-          </button>
+              <i class="fa-regular fa-heart"></i>
+            </button>
           </div>
           <p class="text-xl font-bold">National Emergency Number</p>
           <p class="text-sm text-gray-600">National Emergency</p>
           <p class="font-bold text-lg">999</p>
           <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
-              >All</span
-            >
+            >All</span
+          >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
@@ -98,7 +111,7 @@
               onclick="callService(this)"
               class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
-              <i class="fa-solid fa-phone"></i>  Call
+              <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
@@ -108,18 +121,23 @@
           data-number="999"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[55px] w-[55px] bg-[#DFEFFF] rounded-[10px] p-3 "><img src="./assets/police.png" alt="Police" class="h-[32px] w-[32px]"></span>
-            
+            <span class="h-[55px] w-[55px] bg-[#DFEFFF] rounded-[10px] p-3"
+              ><img
+                src="./assets/police.png"
+                alt="Police"
+                class="h-[32px] w-[32px]"
+            /></span>
+
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
-            <i class="fa-regular fa-heart"></i>
-          </button>
+              <i class="fa-regular fa-heart"></i>
+            </button>
           </div>
           <p class="text-xl font-bold">Police Helpline Number</p>
           <p class="text-sm text-gray-600">Police</p>
           <p class="font-bold text-lg">999</p>
           <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
-              >Police</span
-            >
+            >Police</span
+          >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
@@ -131,7 +149,7 @@
               onclick="callService(this)"
               class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
-              <i class="fa-solid fa-phone"></i>  Call
+              <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
@@ -141,18 +159,23 @@
           data-number="999"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/fire-service.png" alt="Fire-service" class="h-[32px] w-[32px]"></span>
-            
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3"
+              ><img
+                src="./assets/fire-service.png"
+                alt="Fire-service"
+                class="h-[32px] w-[32px]"
+            /></span>
+
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
-            <i class="fa-regular fa-heart"></i>
-          </button>
+              <i class="fa-regular fa-heart"></i>
+            </button>
           </div>
           <p class="text-xl font-bold">Fire Service Number</p>
           <p class="text-sm text-gray-600">Fire</p>
           <p class="font-bold text-lg">999</p>
           <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
-              >Fire</span
-            >
+            >Fire</span
+          >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
@@ -164,7 +187,7 @@
               onclick="callService(this)"
               class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
-              <i class="fa-solid fa-phone"></i>  Call
+              <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
@@ -174,18 +197,23 @@
           data-number="1994-999999"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/ambulance.png" alt="Ambulance" class="h-[32px] w-[32px]"></span>
-            
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3"
+              ><img
+                src="./assets/ambulance.png"
+                alt="Ambulance"
+                class="h-[32px] w-[32px]"
+            /></span>
+
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
-            <i class="fa-regular fa-heart"></i>
-          </button>
+              <i class="fa-regular fa-heart"></i>
+            </button>
           </div>
           <p class="text-xl font-bold">Ambulance Service</p>
           <p class="text-sm text-gray-600">Ambulance</p>
           <p class="font-bold text-lg">1994-999999</p>
           <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
-              >Health</span
-            >
+            >Health</span
+          >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
@@ -197,7 +225,7 @@
               onclick="callService(this)"
               class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
-              <i class="fa-solid fa-phone"></i>  Call
+              <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
@@ -207,18 +235,23 @@
           data-number="109"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
-            
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3"
+              ><img
+                src="./assets/emergency.png"
+                alt="Emergency sign"
+                class="h-[32px] w-[32px]"
+            /></span>
+
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
-            <i class="fa-regular fa-heart"></i>
-          </button>
+              <i class="fa-regular fa-heart"></i>
+            </button>
           </div>
           <p class="text-xl font-bold">Women & Child Helpline</p>
           <p class="text-sm text-gray-600">Women & Child Helpline</p>
           <p class="font-bold text-lg">109</p>
           <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
-              >Help</span
-            >
+            >Help</span
+          >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
@@ -230,7 +263,7 @@
               onclick="callService(this)"
               class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
-              <i class="fa-solid fa-phone"></i>  Call
+              <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
@@ -240,18 +273,23 @@
           data-number="106"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
-            
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3"
+              ><img
+                src="./assets/emergency.png"
+                alt="Emergency sign"
+                class="h-[32px] w-[32px]"
+            /></span>
+
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
-            <i class="fa-regular fa-heart"></i>
-          </button>
+              <i class="fa-regular fa-heart"></i>
+            </button>
           </div>
           <p class="text-xl font-bold">Anti-Corruption Helpline</p>
           <p class="text-sm text-gray-600">Anti-Corruption</p>
           <p class="font-bold text-lg">106</p>
           <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
-              >Govt.</span
-            >
+            >Govt.</span
+          >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
@@ -263,7 +301,7 @@
               onclick="callService(this)"
               class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
-              <i class="fa-solid fa-phone"></i>  Call
+              <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
@@ -273,18 +311,23 @@
           data-number="16216"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/emergency.png" alt="Emergency sign" class="h-[32px] w-[32px]"></span>
-            
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3"
+              ><img
+                src="./assets/emergency.png"
+                alt="Emergency sign"
+                class="h-[32px] w-[32px]"
+            /></span>
+
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
-            <i class="fa-regular fa-heart"></i>
-          </button>
+              <i class="fa-regular fa-heart"></i>
+            </button>
           </div>
           <p class="text-xl font-bold">Electricity Helpline</p>
           <p class="text-sm text-gray-600">Electricity Outage</p>
           <p class="font-bold text-lg">16216</p>
           <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
-              >Electricity</span
-            >
+            >Electricity</span
+          >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
@@ -296,7 +339,7 @@
               onclick="callService(this)"
               class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
-              <i class="fa-solid fa-phone"></i>  Call
+              <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
@@ -306,18 +349,23 @@
           data-number="16445"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/brac.png" alt="Brac" class="h-[32px] w-[32px]"></span>
-            
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3"
+              ><img
+                src="./assets/brac.png"
+                alt="Brac"
+                class="h-[32px] w-[32px]"
+            /></span>
+
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
-            <i class="fa-regular fa-heart"></i>
-          </button>
+              <i class="fa-regular fa-heart"></i>
+            </button>
           </div>
           <p class="text-xl font-bold">Brac Helpline</p>
           <p class="text-sm text-gray-600">Brac</p>
           <p class="font-bold text-lg">16445</p>
           <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
-              >NGO</span
-            >
+            >NGO</span
+          >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
@@ -329,7 +377,7 @@
               onclick="callService(this)"
               class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
-              <i class="fa-solid fa-phone"></i>  Call
+              <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
@@ -339,18 +387,23 @@
           data-number="163"
         >
           <div class="flex justify-between items-center mb-2">
-            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3 "><img src="./assets/Bangladesh-Railway.png" alt="Bangladesh-Railway" class="h-[32px] w-[32px]"></span>
-            
+            <span class="h-[55px] w-[55px] bg-[#FFE3E2] rounded-[10px] p-3"
+              ><img
+                src="./assets/Bangladesh-Railway.png"
+                alt="Bangladesh-Railway"
+                class="h-[32px] w-[32px]"
+            /></span>
+
             <button onclick="increaseHeart(this)" class="mt-2 text-black-500">
-            <i class="fa-regular fa-heart"></i>
-          </button>
+              <i class="fa-regular fa-heart"></i>
+            </button>
           </div>
-          <p class="text-xl font-bold">Bangladesh Railway Helpline </p>
+          <p class="text-xl font-bold">Bangladesh Railway Helpline</p>
           <p class="text-sm text-gray-600">Bangladesh Railway</p>
           <p class="font-bold text-lg">163</p>
           <span class="text-sm bg-gray-100 text-black px-2 py-1 rounded-[10px]"
-              >Travel</span
-            >
+            >Travel</span
+          >
           <div class="flex justify-between mt-4">
             <button
               onclick="copyNumber(this)"
@@ -362,21 +415,25 @@
               onclick="callService(this)"
               class="bg-green-600 w-[125px] h-[40px] px-8 py-1 rounded text-white flex items-center gap-1"
             >
-              <i class="fa-solid fa-phone"></i>  Call
+              <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
       </section>
 
       <!--Call History Section -->
-      <section class="bg-white w-[400px] h-[865px] p-4 mr-8 rounded-[10px] shadow-black">
+      <section
+        class="bg-white w-full md:w-[400px] h-[865px] p-4 mr-0 md:mr-8 rounded-[10px] shadow-md overflow-hidden"
+      >
         <div class="flex justify-between items-center mb-4">
-          <h3 class="text-xl font-semibold flex items-center gap-2">
+          <h3
+            class="text-xl font-semibold flex items-center gap-2 text-gray-800"
+          >
             <i class="fa-regular fa-clock"></i> Call History
           </h3>
           <button
             onclick="clearHistory()"
-            class="bg-green-600 w-[110px] h-[40px] text-white px-3 py-1 rounded-[15px]"
+            class="bg-green-600 w-[80px] h-[40px] text-white px-3 py-1 rounded-[15px] hover:bg-green-700 transition"
           >
             Clear
           </button>
@@ -422,15 +479,22 @@
         const now = new Date();
         const time = now.toLocaleTimeString();
         const historyItem = document.createElement("li");
-        historyItem.textContent = `${name} 
-         ${number}    ${time}`;
+        historyItem.className =
+          "bg-gray-100 rounded-lg px-4 py-3 text-sm text-gray-700 shadow-sm";
+
+        historyItem.innerHTML = `
+    <div class="flex justify-between items-center">
+      <span class="font-bold">${name}</span>
+      <span class="text-gray-500 text-xs">${time}</span>
+    </div>
+    <div class="text-gray-500 font-semibold">${number}</div>
+  `;
+
         document.getElementById("historyList").appendChild(historyItem);
       }
-
       function clearHistory() {
         document.getElementById("historyList").innerHTML = "";
       }
     </script>
-    </main>
   </body>
 </html>
